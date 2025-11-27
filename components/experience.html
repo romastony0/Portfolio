@@ -1,0 +1,99 @@
+<div class="container">
+    <h2 class="fade-in-up" style="text-align: center; margin-bottom: 4rem;">My <span
+            style="color: var(--primary-color);">Journey</span></h2>
+
+    <div class="timeline" style="position: relative; max-width: 800px; margin: 0 auto;">
+        <!-- Vertical Line -->
+        <div
+            style="position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: var(--glass-border); transform: translateX(-50%);">
+        </div>
+
+        <!-- Item 1 -->
+        <div class="timeline-item fade-in-up"
+            style="display: flex; justify-content: flex-end; padding-right: 50%; position: relative; margin-bottom: 3rem;">
+            <div class="timeline-content glass-card" style="width: 90%; margin-right: 2rem; position: relative;">
+                <span style="color: var(--primary-color); font-size: 0.9rem; font-weight: 600;">Dec 2023 –
+                    Present</span>
+                <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">PHP Developer</h3>
+                <h4 style="font-size: 1rem; color: var(--text-color); opacity: 0.7; margin-bottom: 1rem;">Mobile Tutor
+                    Pvt Ltd, Bangalore</h4>
+                <p style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;">
+                    Developing and maintaining telecom VAS applications, API integrations, and subscription management
+                    systems.
+                </p>
+
+                <!-- Dot -->
+                <div
+                    style="position: absolute; right: -2rem; top: 20px; width: 16px; height: 16px; background: var(--primary-color); border-radius: 50%; transform: translateX(50%); box-shadow: 0 0 10px var(--primary-color);">
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item fade-in-up"
+            style="display: flex; justify-content: flex-start; padding-left: 50%; position: relative; margin-bottom: 3rem;">
+            <div class="timeline-content glass-card" style="width: 90%; margin-left: 2rem; position: relative;">
+                <span style="color: var(--primary-color); font-size: 0.9rem; font-weight: 600;">Jan 2023 – Nov
+                    2023</span>
+                <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">PHP Developer Intern</h3>
+                <h4 style="font-size: 1rem; color: var(--text-color); opacity: 0.7; margin-bottom: 1rem;">Mobile Tutor
+                    Pvt Ltd, Bangalore</h4>
+                <p style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;">
+                    Assisted in debugging legacy code, implementing new features for educational platforms, and database
+                    management.
+                </p>
+
+                <!-- Dot -->
+                <div
+                    style="position: absolute; left: -2rem; top: 20px; width: 16px; height: 16px; background: var(--bg-color); border: 2px solid var(--primary-color); border-radius: 50%; transform: translateX(-50%);">
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item fade-in-up"
+            style="display: flex; justify-content: flex-end; padding-right: 50%; position: relative;">
+            <div class="timeline-content glass-card" style="width: 90%; margin-right: 2rem; position: relative;">
+                <span style="color: var(--primary-color); font-size: 0.9rem; font-weight: 600;">Sep 2021 – May
+                    2023</span>
+                <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">Master of Computer Applications</h3>
+                <h4 style="font-size: 1rem; color: var(--text-color); opacity: 0.7; margin-bottom: 1rem;">Bharathiar
+                    University, Coimbatore</h4>
+                <p style="font-size: 0.9rem; color: var(--text-color); opacity: 0.8;">
+                    8.2 CGPA
+                </p>
+
+                <!-- Dot -->
+                <div
+                    style="position: absolute; right: -2rem; top: 20px; width: 16px; height: 16px; background: var(--bg-color); border: 2px solid var(--primary-color); border-radius: 50%; transform: translateX(50%);">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    @media (max-width: 768px) {
+        .timeline-item {
+            padding: 0 !important;
+            justify-content: flex-start !important;
+            margin-left: 20px;
+        }
+
+        .timeline-content {
+            width: 100% !important;
+            margin: 0 0 2rem 1rem !important;
+        }
+
+        .timeline>div:first-child {
+            left: 0 !important;
+        }
+
+        .timeline-content>div:last-child {
+            left: -1rem !important;
+            right: auto !important;
+            transform: translateX(-50%) !important;
+        }
+    }
+</style>

@@ -1,0 +1,59 @@
+/* Glassmorphism Utilities */
+
+.glass-nav {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(70, 99, 101, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 var(--glass-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.glass-card:hover {
+    border-color: var(--secondary-color);
+    box-shadow: 0 12px 40px 0 rgba(180, 154, 103, 0.2);
+}
+
+.glass-input {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(70, 99, 101, 0.2);
+    border-radius: 10px;
+    padding: 1rem;
+    color: var(--text-color);
+    width: 100%;
+    font-family: var(--font-main);
+    transition: all 0.3s ease;
+}
+
+.glass-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(70, 99, 101, 0.1);
+}
+
+.neon-text {
+    /* Subtle glow for light mode instead of harsh neon */
+    text-shadow: 0 0 20px rgba(70, 99, 101, 0.2);
+}
+
+.neon-box {
+    box-shadow: 0 0 15px rgba(70, 99, 101, 0.1),
+                inset 0 0 15px rgba(70, 99, 101, 0.05);
+}

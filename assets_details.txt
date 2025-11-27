@@ -1,0 +1,29 @@
+# Asset Details
+# Please upload images with these filenames to the corresponding paths.
+
+# Profile Section
+Image Name: profile.jpg
+Path: assets/images/profile.jpg
+Resolution: 400x400 px (Square aspect ratio recommended)
+Description: Profile picture for the About section.
+
+# Projects Section
+Image Name: project-vas.jpg
+Path: assets/images/project-vas.jpg
+Resolution: 800x600 px (4:3 aspect ratio recommended)
+Description: Screenshot for VAS Management System.
+
+Image Name: project-agency.jpg
+Path: assets/images/project-agency.jpg
+Resolution: 800x600 px (4:3 aspect ratio recommended)
+Description: Screenshot for Agency Callback Controller.
+
+Image Name: project-legacy.jpg
+Path: assets/images/project-legacy.jpg
+Resolution: 800x600 px (4:3 aspect ratio recommended)
+Description: Screenshot for Legacy Educational Platforms.
+
+Image Name: project-cashew.jpg
+Path: assets/images/project-cashew.jpg
+Resolution: 800x600 px (4:3 aspect ratio recommended)
+Description: Screenshot for Cashew Connect E-commerce.

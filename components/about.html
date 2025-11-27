@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="glass-card fade-in-up">
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: center;">
+            <div class="about-image" style="position: relative;">
+                <div
+                    style="width: 100%; padding-bottom: 100%; background: #222; border-radius: 20px; overflow: hidden; border: 1px solid var(--glass-border); position: relative;">
+                    <img src="assets/images/profile.jpg" alt="Romas Tony Paul"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="neon-box"
+                    style="position: absolute; top: 20px; left: 20px; width: 100%; height: 100%; border: 2px solid var(--primary-color); border-radius: 20px; z-index: -1;">
+                </div>
+            </div>
+
+            <div class="about-text">
+                <h2 style="color: var(--primary-color);">About Me</h2>
+                <p style="color: var(--text-color); opacity: 0.9;">
+                    I am a <strong>Software Developer</strong> with years of industry experience and a strong foundation
+                    in modern development practices. I possess broad knowledge across the technology landscape with a
+                    keen ability to adapt and learn quickly.
+                </p>
+                <p style="color: var(--text-color); opacity: 0.9;">
+                    Highly motivated and eager to grow, I am committed to delivering impactful and efficient solutions.
+                    My expertise spans <strong>PHP (Core & MVC), MySQL, JavaScript, and Telecom VAS
+                        integrations</strong>.
+                </p>
+
+                <div style="margin-top: 2rem; display: flex; gap: 2rem;">
+                    <div>
+                        <h4 style="color: var(--secondary-color); font-size: 2rem;">2+</h4>
+                        <span style="font-size: 0.9rem; color: var(--text-color); opacity: 0.7;">Years Experience</span>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--secondary-color); font-size: 2rem;">10+</h4>
+                        <span style="font-size: 0.9rem; color: var(--text-color); opacity: 0.7;">Projects
+                            Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    @media (max-width: 768px) {
+        .glass-card>div {
+            grid-template-columns: 1fr !important;
+        }
+    }
+</style>

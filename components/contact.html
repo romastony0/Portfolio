@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="glass-card fade-in-up" style="max-width: 800px; margin: 0 auto;">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Get In <span
+                style="color: var(--primary-color);">Touch</span></h2>
+        <p style="text-align: center; margin-bottom: 3rem; color: var(--text-color); opacity: 0.8;">
+            Interested in working together or have a question? Feel free to reach out.
+        </p>
+
+        <form id="contact-form" style="display: grid; gap: 1.5rem;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                <div>
+                    <input type="text" id="contact-name" name="name" placeholder="Name" class="glass-input" required>
+                </div>
+                <div>
+                    <input type="email" id="contact-email" name="email" placeholder="Email" class="glass-input"
+                        required>
+                </div>
+            </div>
+            <div>
+                <input type="text" id="contact-subject" name="subject" placeholder="Subject" class="glass-input"
+                    required>
+            </div>
+            <div>
+                <textarea id="contact-message" name="message" placeholder="Message" class="glass-input" rows="5"
+                    required></textarea>
+            </div>
+            <div style="text-align: center; margin-top: 1rem;">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+            <div id="form-status" style="text-align: center; margin-top: 1rem; font-size: 0.9rem;"></div>
+        </form>
+    </div>
+</div>
+
+<style>
+    @media (max-width: 600px) {
+        #contact-form>div:first-child {
+            grid-template-columns: 1fr !important;
+        }
+    }
+</style>
